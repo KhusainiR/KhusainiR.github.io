@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: roboto;
+  }
+
+  .navbar {
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 20px 100px;
+    height: 50px;
+    background-color:  darkblue;
+    align-items: center;
+  }
+  
+  .nav-menu {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-menu li {
+    margin: 0 30px;
+    font-weight: 700;
+  }
+
+  .auth{
+    font-family: "roboto", sans-serif,;
+    text-decoration: none;
+    padding:6px 20px;
+    color:white;
+    background-color: rgb(255, 204, 35);
+    border-radius: 20px;
+}
+
+.search-button {
+  float: right;
+  width: 32px;
+  height: 32px;
+  margin-top: 2px;
+  margin-right: 16px;
+  background:rgb(223, 223, 223);
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=text] {
+  height: 20px;
+  padding: 6px;
+  margin-top: 2px;
+  font-size: 17px;
+  border: none;
+}
+
+  .full{
+    width: 100%;
+    background: darkblue;
+  }
+
+  .hero {
+    color: white;
+    margin-top: 50px;
+    width: calc(100% - 200px);
+    padding: 0 100px;
+    display: flex;
+    background: darkblue;
+    margin: auto;
+    height: 550px;
+    align-items: center;
+  }
+
+
+
+.prof {
+    width: calc(100% - 200px);
+    padding: 0 100px;
+    display: flex;
+}
+
+.prof h2{
+    margin: 10px 0;
+}
+
+.w-30 {
+    width: 33.5%;
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.w-70 {
+    width: 66.5%;
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.gprofil{
+    width: 370px;
+    margin-bottom: 20px;
+}
+
+.kontak {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    float: left;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(80, 80, 80, 0.5);
+}
+
+.kontak td{
+    height: 30px;
+}
+
+.riwayatbeli {
+    margin-top: 20px;
+    width: 100%;
+    display: flex;
+}
+
+.r1 {
+    margin: 0 30px 0 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px 40px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(80, 80, 80, 0.5);
+  }
+
+.r1 h3{
+    color: orange;
+    margin-top: 10px;
+}
+
+.r2 {
+    margin: 0 30px 0 0;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px 20px 40px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(80, 80, 80, 0.5);
+}
+
+.r2 h3{
+    color: orange;
+    margin-top: 10px;
+}
+
+
+.sponsorlogo{
+    width: calc(100%);
+    display: flex;
+  }
+
+  .sponsorpilihan{
+    width: calc(100% - 200px);
+    padding: 0 100px;
+    display: flex;
+    background: rgb(197, 197, 197);
+    margin-top: 30px;
+  }
+
+  .sponsor{
+    color: grey;
+    background: rgb(197, 197, 197);
+    width: 20%;
+    padding: 0 30px;
+    height: 100px;
+  }
+
+  .footer {
+    width: calc(100% - 200px);
+    padding: 0 100px;
+    display: flex;
+    background: darkblue;
+  }
+
+  .w-25{
+    width: 25%;
+    color: white;
+    background: darkblue;
+    padding: 40px 20px;
+  }
+
+  .w-25 h2{
+    margin-bottom: 15px;
+    color: orange; 
+  }
