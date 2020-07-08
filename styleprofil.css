@@ -10,18 +10,43 @@
     justify-content: space-between;
     padding: 20px 100px;
     height: 50px;
-    background-color:  darkblue;
+    background-color:  rgb(32, 192, 223);
     align-items: center;
   }
   
   .nav-menu {
     list-style: none;
     display: flex;
+    text-decoration: none;
   }
   
   .nav-menu li {
     margin: 0 30px;
     font-weight: 700;
+    transition: 0.4s;
+  }
+
+  .nav-menu li:hover{
+    transform: scale(108%);
+  }
+
+  .btn-text{
+    text-decoration: none;
+    color: white;
+  }
+
+  .btn-text1{
+    text-decoration: none;
+    margin: 0 20px;
+    font-weight: 600;
+    color: rgb(255, 204, 35);
+  }
+
+  .nav-menu1{
+    list-style: none;
+    text-decoration: none;
+    margin-top: 20px;
+    display: flex;
   }
 
   .auth{
@@ -70,7 +95,19 @@ input[type=text] {
     align-items: center;
   }
 
+  .tombol {
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: rgb(255, 204, 35);
+    color: white;
+    transition: 0.4s;
+  }
 
+  .tombol:hover{
+    transform: scale(105%);
+  }
 
 .prof {
     width: calc(100% - 200px);
@@ -123,6 +160,14 @@ input[type=text] {
     display: flex;
 }
 
+.box-underline {
+  width: 65px;
+  height: 3px;
+  margin-top: 5px;
+  background-color: rgb(255, 204, 35);
+  display: flex;
+}
+
 .r1 {
     margin: 0 30px 0 0;
     text-align: center;
@@ -138,7 +183,7 @@ input[type=text] {
   }
 
 .r1 h3{
-    color: orange;
+    color: rgb(255, 204, 35);
     margin-top: 10px;
 }
 
@@ -157,7 +202,7 @@ input[type=text] {
 }
 
 .r2 h3{
-    color: orange;
+    color: rgb(255, 204, 35);
     margin-top: 10px;
 }
 
@@ -171,13 +216,13 @@ input[type=text] {
     width: calc(100% - 200px);
     padding: 0 100px;
     display: flex;
-    background: rgb(197, 197, 197);
+    background: rgb(218, 218, 218);
     margin-top: 30px;
   }
 
   .sponsor{
     color: grey;
-    background: rgb(197, 197, 197);
+    background: rgb(218, 218, 218);
     width: 20%;
     padding: 0 30px;
     height: 100px;
@@ -187,17 +232,25 @@ input[type=text] {
     width: calc(100% - 200px);
     padding: 0 100px;
     display: flex;
-    background: darkblue;
+    background-color:  rgb(32, 192, 223);
   }
 
   .w-25{
     width: 25%;
     color: white;
-    background: darkblue;
+    background-color:  rgb(32, 192, 223);
     padding: 40px 20px;
   }
 
   .w-25 h2{
     margin-bottom: 15px;
-    color: orange; 
+    color: rgb(255, 204, 35); 
+  }
+
+  .w-25 p{
+    margin-bottom: 6px;
+  }
+
+  .subscribe{
+    width:100%;
   }
