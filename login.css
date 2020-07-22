@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: montserrat;
+  }
+
+body{
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-color: rgb(39, 173, 240);
+}
+
+
+.kotak{
+  margin: auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.kotakputih{
+  width: 425px;
+  height: 300px;
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.isi{
+  margin: 50px 0;
+  width: 325px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+}
+
+.icon{
+  width: 20px;
+  margin-right: 5px;
+  float: left;
+}
+
+.icon2{
+  width: 20px;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+
+.text{
+  width: 100%;
+  overflow: hidden;
+  padding: 8px 0;
+  margin: 15px 0;
+  border-bottom: 1px solid;
+  color: rgb(142, 160, 179);
+}
+
+.tombolbox{
+  width: 100%;
+  overflow: hidden;
+  margin: 15px 0;
+  color: rgb(142, 160, 179);
+}
+
+.text input{
+  border: none;
+  outline: none;
+  background: none;
+  color: rgb(142, 160, 179);
+  width: 80%;
+  margin : 0 10px;
+}
+
+.tombol{
+  width: 100%;
+  height: 70px;
+  margin-top: 0;
+  color: white;
+  background-color: rgb(39, 173, 240);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s;
+}
+
+.tombol:hover{
+  color: rgb(223, 223, 223);
+  background-color: rgb(15, 149, 216);
+}
+
+a{
+  text-decoration: none;
+  color: white;
+  transition: 0.4s;
+}
+
+.kotakhitam{
+  width: 425px;
+  height: 80px;
+  color: white;
+  background-color: rgb(37, 45, 57);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 13px;
+}
+
+.bawah{
+  margin-top: 30px;
+  color: white;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.text1{
+  margin-bottom: 30px;
+}
+
+.isian{
+  list-style: none;
+  text-decoration: none;
+}

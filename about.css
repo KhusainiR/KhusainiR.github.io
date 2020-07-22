@@ -1,0 +1,408 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: roboto;
+  list-style: none;
+}
+
+body{
+  width: auto;
+}
+
+.checkbtn{
+  margin-right: 40px;
+  float: right;
+  cursor: pointer;
+  display: none;
+}
+
+#check{
+  display: none;
+}
+
+.navbar {
+  justify-content: center;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  color: white;
+  padding: 10px 0px;
+  height: 50px;
+  background-color:  rgb(15, 149, 216);
+  align-items: center;
+  box-shadow: 0 0 10px rgba(117, 117, 117, 0.5);
+}
+
+.nav-menu {
+  margin-left: 100px;
+  display: flex;
+  text-decoration: none;
+}
+
+.nav-menu li {
+  margin: 0 30px;
+  font-weight: 700;
+  transition: 0.4s;
+}
+
+.nav-menu li:hover{
+  
+}
+
+
+.btn-text{
+  text-decoration: none;
+  color: white;
+}
+
+.btn-text:hover{
+  color: rgb(133, 205, 241);
+}
+
+.btn-text h3:hover{
+  color: rgb(133, 205, 241);
+}
+
+.auth{
+  font-family: "roboto", sans-serif,;
+  text-decoration: none;
+  padding:6px 20px;
+  color:white;
+  background-color: rgb(255, 204, 35);
+  border-radius: 20px;
+}
+
+.search-button {
+color: rgb(190, 190, 190);
+float: right;
+width: 32px;
+height: 32px;
+margin-top: 2px;
+background:rgb(255, 255, 255);
+font-size: 17px;
+border: none;
+cursor: pointer;
+}
+
+input[type=text] {
+height: 20px;
+padding: 6px;
+margin-top: 2px;
+font-size: 17px;
+border: none;
+}
+
+  .pa{
+    width: 100%;
+    height: 50px;
+  }
+
+  .tombol {
+    text-decoration: none;
+    border-radius: 20px;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: rgb(255, 204, 35);
+    color: white;
+    transition: 0.4s;
+  }
+
+  .tombol:hover{
+    transform: scale(105%);
+  }
+
+  .judul{
+    font-size: 30px;
+  }
+
+  .about {
+    width: calc(100% - 200px);
+    padding: 30px 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .isi{
+    margin-top: 30px;
+    width: 100%;
+  }
+
+  p{
+    margin: 20px 0 ;
+  }
+
+  .box-underline {
+    width: 130px;
+    height: 3px;
+    margin-top: 5px;
+    margin-bottom: 30px;
+    background-color: rgb(255, 204, 35);
+  }
+
+  .w-20{
+    width: 25%;
+    height: 150px;
+    float: left;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    
+  }
+
+  .w-21{
+    width: 25%;
+    height: 200px;
+    float: left;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+  }
+  
+  .w-80 {
+    width: calc(100% - 40px);
+    padding: 0 20px;
+    height: 160px;
+  }
+
+  .w-81 {
+    width: 75%;
+    display:flex;
+  }
+
+  .w-40{
+    width: 50%;
+    float: left;
+    padding: 0 20px 0 0;
+  }
+
+  .w-40 h2{
+    color: rgb(255, 204, 35);
+  }
+
+  .w-41 h2{
+    color: rgb(255, 204, 35);
+  }
+  
+  .w-41{
+    width: 50%;
+    padding: 0 20px;
+  }
+  
+  .sponsorlogo{
+    width: 100%;
+    display: flex;
+  }
+
+  .promogmbr{
+    width: 70%;
+  }
+
+  .sponsorpilihan{
+    width: calc(100% - 400px);
+    padding: 0 200px;
+    display: flex;
+    background: rgb(230, 231, 232);
+    margin-top: 30px;
+  }
+
+  .sponsor{
+    width: 100%;
+  }
+
+  .footer {
+    width: calc(100% - 200px);
+    padding: 0 100px;
+    display: flex;
+    background-color:  rgb(15, 149, 216);
+  }
+
+  .w-25{
+    width: 25%;
+    color: white;
+    background-color:  rgb(15, 149, 216);
+    padding: 40px 20px;
+  }
+
+  .w-25 h2{
+    margin-bottom: 15px;
+    color: rgb(255, 204, 35); 
+  }
+
+  .w-25 p{
+    margin-bottom: 6px;
+  }
+
+  .btn-text{
+    text-decoration: none;
+  }
+
+  .subscribe{
+    width:100%;
+  }
+  
+  @media screen and (max-width: 1360px){
+    .nav-menu li {
+      margin: 0 20px;
+      font-size: 14px;
+      transition: 0.4s;
+    }
+    
+    .btn1{
+      transition: 0.4s;
+    }
+    
+    .btn1:hover{
+      background: rgb(31, 162, 228);
+    }
+    
+    .btn-text{
+      text-decoration: none;
+      color: white;
+    }
+    
+    .search-button {
+    float: right;
+    width: 27px;
+    height: 27px;
+    margin-top: 2px;
+    margin-right: 16px;
+    background:rgb(255, 255, 255);
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    }
+
+    input[type=text] {
+      height: 15px;
+      padding: 6px;
+      margin-top: 2px;
+      font-size: 17px;
+      border: none;
+      }
+
+    .promo{
+      color: white;
+      background: rgb(255, 204, 36);
+      width: 70%;
+      height: 100px;
+      display: inherit;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .sponsorpilihan{
+      width: calc(100% - 400px);
+      padding: 0 200px;
+      display: flex;
+      background: rgb(230, 231, 232);
+      margin-top: 30px;
+    }
+  
+    .sponsor{
+      width: 100%;
+    }
+  }
+
+  @media screen and (max-width: 1190px){
+    .navbar {
+      justify-content: space-between;
+      width: 100%;
+      position: fixed;
+      color: white;
+      padding: 10px 20px;
+      height: 50px;
+      background-color:  rgb(15, 149, 216);
+      align-items: center;
+      box-shadow: 0 0 10px rgba(117, 117, 117, 0.5);
+    }
+    
+    .nav-menu li {
+      padding: 15px 0;
+      font-weight: 700;
+    }
+
+    .nav-menu{
+      justify-content: center;
+      margin-left: 0px;
+      background: rgb(10, 134, 196);
+      position: fixed;
+      width: 100%;
+      padding: 10px 0;
+      top: 70px;
+      right: -100%;
+      text-align: center;
+      display: inline-block;
+      transition: all .2s;
+    }
+
+    .checkbtn{
+      background:  rgb(15, 149, 216);
+      float: right;
+      align-items: flex-end;
+      display: block;
+    }
+
+    #check{
+      display: none;
+    }
+
+    .checkbtn:hover, .checkbtn:focus{
+      color:  rgb(10, 134, 196);
+    }
+
+    #check:checked ~ .nav-menu{
+      justify-content: center;
+      margin-left: 0px;
+      background: rgb(10, 134, 196);
+      position: fixed;
+      width: 100%;
+      padding: 10px 0;
+      top: 70px;
+      right: 0;
+      text-align: center;
+      display: inline-block;
+    }
+
+    .search-button{
+      float: inherit;
+    }
+  }
+
+  @media screen and (max-width: 915px){
+    .w-40{
+    margin-top: 50px;
+    width: 50%;
+    float: left;
+    padding: 0 20px 0 0;
+  }
+  
+  .w-41{
+    margin-top: 50px;
+    width: 50%;
+    padding: 0 20px;
+  }
+
+  .sponsorpilihan{
+    width: calc(100% - 150px);
+    padding: 0 75px;
+    display: flex;
+    background: rgb(230, 231, 232);
+    margin-top: 30px;
+  }
+
+  .footer {
+    width: calc(100% - 200px);
+    padding: 10px 100px;
+    display: inline-table;
+    background-color:  rgb(15, 149, 216);
+  }
+
+  .w-25{
+    width: 80%;
+    color: white;
+    padding: 10px 20px;
+  }
+}

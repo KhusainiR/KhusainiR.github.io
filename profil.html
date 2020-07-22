@@ -6,34 +6,42 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <div class="navbar">
-        <h1>Logo</h1>
-        <ul class="nav-menu">
-          <li>
-              <form>
-                  <button class="search-button" type="submit"><i class="fa fa-search"></i></button>
-                  <input type="text" placeholder="Search.." name="search">
-              </form>
-          </li>
-          <li>
-            <a href="index.html" class="btn-text"><h3>Home</h3></a>
-          </li>
-          <li>
-            <a href="#" class="btn-text"><h3>About</h3></a>
-          </li>
-          <li>
-            <a href="#" class="btn-text"><h3>Shop</h3></a>
-          </li>
-          <li>
-            <a href="profil.html" class="btn-text"><h3>Profile</h3></a>
-          </li>
-        </ul>
-        <ul class="nav-menu">
-            <li class="item">
-                <a href="#" class="auth">Sign Up / Log in</a>
-            </li>   
-        </ul>
-    </div>
+  <div class="navbar">
+    <img src="logo.svg" height="100px">
+    <input type="checkbox" id="check">
+    <label for="check" class="checkbtn">
+      <img src="menu.svg" width="35px">
+    </label>
+    <ul class="nav-menu">
+      <li>
+          <form>
+     
+              <input type="text" placeholder="Search.." name="search">
+              <button class="search-button" type="submit"><i class="fa fa-search"></i></button>
+          </form>
+      </li>
+      <li>
+        <a href="index.html" class="btn-text"><h3>Home</h3></a>
+      </li>
+      <li>
+        <a href="shop.html" class="btn-text"><h3>Shop</h3></a>
+      </li>
+      <li>
+        <a href="profil.html" class="btn-text"><h3>Profile</h3></a>
+      </li>
+      <li>
+        <a href="about.html" class="btn-text"><h3>About</h3></a>
+      </li>
+      <li>
+          <a href="login.html" class="auth">Sign Up / Log in</a>
+      </li> 
+    </ul>
+    
+</div>
+
+<div class="pa">
+<box></box>
+</div>
 
 
     <div class="prof">
@@ -60,6 +68,7 @@
                   <a href="profil.html" class="btn-text1">Voucher</a>
                 </li>
               </ul>
+
             <div class="kontak">
                 <table width="100%">
                     <tr>
@@ -103,84 +112,77 @@
             <h2>Riwayat Pembelian</h2>
             <box class="box-underline"></box>
             <div class="riwayatbeli">
+
                 <div class="r1">
-                <img src="1.png" class="gmblaptop1" width="250px">
-                <h3>Lorem ipsum dolor sit amet consectetur</h3>
-                <h3>Rp. 6.999.000</h4>
-                <p>a</p>
-                <p>25 Agustus 2019</p>
+                <img src="13.png" class="gmblaptop1">
+                <p>ASUS ROG G551JM Intel Core i7-4710HQ Nvidia GTX860M 2GB</p>
+                <p class="harga">Rp. 15.499.000</p>
+                <img src="rating.svg" width="90px">  
+                <p>25 Mei 2020</p>
 
                 </div>
 
                 <div class="r2">
-                <img src="2.png" class="gmblaptop1" width="250px">
-                <h3>Lorem ipsum dolor sit amet consectetur</h3>
-                <h3>Rp. 6.999.000</h4>
-                <p>a</p>
+                <img src="18.png" class="gmblaptop1">
+                <p>ASUS X441M Intel Celeron N4000 Intel UHD 600 4GB DDR4 RAM</p> 
+                <p class="harga">Rp. 4.499.000</p>
+                <img src="rating.svg" width="90px">
                 <p>25 Agustus 2019</p>
                 </div>
+
             </div>
         </div>
     </div>
 
-  <div class="sponsorlogo">
-    <div class="sponsorpilihan">
-      <div class="sponsor">
-        <h2>Logo Laptop 1</h2>      
+    <div class="sponsorlogo">
+        <div class="sponsorpilihan">
+          <img src="sponsor.svg" class="sponsor">
+        </div>
       </div>
-
-      <div class="sponsor">
-        <h2>Logo Laptop 2</h2>      
+    
+      <div class="footer">
+        <div class="w-25">
+          <h2>Tentang Kami</h2>
+          <p>Sekilas Tentang Kami</p>
+          <p>19.01.4372</p>
+          <p>19.01.4383</p>
+        </div>
+    
+        <div class="w-25">
+          <h2>Kontak Kami</h2>
+          <table>
+            <tr height="45px">
+              <td width="40px"><img src="telp.svg" width="80%"></td>
+              <td>0857 7878 7787 <br/>1234 5678 9009</td>
+            </tr>
+            <tr height="45px">
+              <td width="40px"><img src="pesan.svg" width="80%"></td>
+              <td>emailkami@mail.com<br/>vtechnology@mail.com</td>
+            </tr>
+    
+          </table>
+          
+          <p></p>
+          <p></p>
+        </div>
+    
+        <div class="w-25">
+          <h2>Link</h2>
+          <p><a href="#" class="btn-text">Services</a></p>
+          <p><a href="#" class="btn-text">Support</a></p>
+          <p><a href="#" class="btn-text">Terms & Condition</a></p>
+          <p><a href="#" class="btn-text">Privacy Policy</a></p>
+        </div>
+    
+        <div class="w-25">
+          <h2>Subscribe</h2>
+          <p>Untuk mengikuti informasi teknologi</p>
+          <form>
+              <input type="text" placeholder="Email..." name="search" class="subscribe">
+          </form>
+          <br/>
+          <a href="#" class="tombol">Subscribe</a>
+        </div>
       </div>
-
-      <div class="sponsor">
-        <h2>Logo Laptop 3</h2>      
-      </div>
-
-      <div class="sponsor">
-        <h2>Logo Laptop 4</h2>      
-      </div>
-
-      <div class="sponsor">
-        <h2>Logo Laptop 5</h2>      
-      </div>
-    </div>
-  </div>
-
-  <div class="footer">
-    <div class="w-25">
-      <h2>Tentang Kami</h2>
-      <p>Lorem ipsum dolor sit</p>
-      <p>4383</p>
-      <p>4372</p>
-    </div>
-
-    <div class="w-25">
-      <h2>Kontak Kami</h2>
-      <p>0857 7878 7787</p>
-      <p>1234 5678 9009</p>
-      <p>emailkami@mail.com</p>
-      <p>vtechnology@mail.com</p>
-    </div>
-
-    <div class="w-25">
-      <h2>Link</h2>
-      <p>Services</p>
-      <p>Support</p>
-      <p>Terms & Condition</p>
-      <p>Privacy Policy</p>
-    </div>
-
-    <div class="w-25">
-      <h2>Subscribe</h2>
-      <p>Untuk mengikuti informasi teknologi</p>
-      <form>
-          <input type="text" placeholder="email disini.." name="search" class="subscribe">
-      </form>
-      <br/>
-      <a href="#" class="tombol">Subscribe</a>
-    </div>
-  
-  </div>
 </body>
 </html>

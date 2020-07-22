@@ -97,86 +97,67 @@ border: none;
     height: 50px;
   }
 
-  .btn-text1{
-    text-decoration: none;
-    margin: 0 20px;
-    font-weight: 600;
-    color: rgb(255, 204, 35);
-  }
-
-  .nav-menu1{
-    list-style: none;
-    text-decoration: none;
-    margin-top: 20px;
-    display: flex;
-  }
-
-
-  .tombol {
-    text-decoration: none;
-    border-radius: 20px;
-    margin-top: 20px;
-    padding: 10px 20px;
-    background: rgb(255, 204, 35);
-    color: white;
-    transition: 0.4s;
-  }
-
-  .tombol:hover{
-    transform: scale(105%);
-  }
-
-.prof {
+.cardpa {
   margin-top: 20px;
-    width: calc(100% - 200px);
-    padding: 0 100px;
-    display: flex;
+  width: calc(100% - 200px);
+  display: flex;
+  padding: 0 100px;
 }
 
-.prof h2{
-    margin: 10px 0;
+.cardpa1 {
+  float: left;
+  width: 100%;
+  margin-top: 30px;
+  padding: 10px 20px;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgba(80, 80, 80, 0.5);
+  transition: 0.4s;
 }
 
-.w-30 {
-    width: 33.5%;
-    padding: 30px 30px;
-    display: flex;
-    flex-direction: column; 
+.cardpa1:hover{
+  box-shadow: 0 0 10px rgba(59, 59, 59, 0.5);
 }
 
-.w-70 {
-    width: 66.5%;
-    padding: 30px 30px;
-    display: flex;
-    flex-direction: column;
+.w-20 {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  float: left;
 }
 
-.gprofil{
-    width: 100%;
-    margin-bottom: 20px;
+.w-40 {
+  width: 40%;
+  height: 230px;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  float: left;
 }
 
-.kontak {
-    margin-bottom: 20px;
-    margin-top: 20px;
-    float: left;
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    padding: 20px 20px;
-    border-radius: 20px;
-    box-shadow: 0 0 5px rgba(80, 80, 80, 0.5);
+.w-40 h3 {
+  color: rgb(255, 204, 35);
 }
 
-.kontak td{
-    height: 30px;
+.tombol {
+  text-decoration: none;
+  border-radius: 20px;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background: rgb(255, 204, 35);
+  color: white;
+  transition: 0.4s;
 }
 
-.riwayatbeli {
-    margin-top: 20px;
-    width: 100%;
-    display: flex;
-}
+.pilihan {
+  width: calc(100% - 200px);
+  padding: 0 100px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  display: flex;
+ }
 
 .box-underline {
   width: 100px;
@@ -186,9 +167,29 @@ border: none;
   display: flex;
 }
 
-.riwayatbeli p{
+.w-30 {
+  width: 33%;
+  padding: 0 40px 0 10px;
+}
+
+.kotak {
+  margin-top:30px;
+  margin-bottom: 30px;
+  padding: 10px 15px;
+  width:100%;
+  border-radius: 7px;
+  display: flex;
+  box-shadow: 0 0 5px rgba(80, 80, 80, 0.5);
+  transition:0.4s;
+}
+
+.kotak:hover{
+  box-shadow: 0 0 10px rgba(59, 59, 59, 0.5);
+}
+
+.kotak p{
   font-size: 14px;
-  font-weight: 600;
+  font-weight: 650;
   font-family: montserrat;
 }
 
@@ -197,46 +198,54 @@ border: none;
   color: rgb(255, 204, 36);
 }
 
-.r1 {
-    margin: 0 30px 0 0;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    float: left;
-    width: 33%;
-    display: flex;
-    flex-direction: column;
-    padding: 30px 20px 40px 20px;
-    border-radius: 20px;
-    box-shadow: 0 0 5px rgba(80, 80, 80, 0.5);
-  }
-
-.r1 h3{
-    color: rgb(255, 204, 35);
-    margin-top: 10px;
+.semua{
+  width: calc(100% - 200px);
+  padding: 0 100px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  display: flex;
 }
 
-.r2 {
-    margin: 0 30px 0 0;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    float: left;
-    width: 33%;
-    display: flex;
-    flex-direction: column;
-    padding: 30px 20px 40px 20px;
-    border-radius: 20px;
-    box-shadow: 0 0 5px rgba(80, 80, 80, 0.5);
+.w-lebar{
+  width: 100%;
+  display: flex;
+  
 }
 
-.r2 h3{
-    color: rgb(255, 204, 35);
-    margin-top: 10px;
+.lebar{
+  width:30%;
+  margin-top:30px;
+  margin-bottom: 30px;
+  padding: 15px 15px;
+  height: 120px;
+  border-radius: 7px;
+  display: flex;
+  box-shadow: 0 0 5px rgba(80, 80, 80, 0.5);
 }
 
-.gmblaptop1{
-  width: 250px;
+.bawah{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.kembali{
+  margin: 0 10px;
+  box-shadow: 0 0 5px rgba(80, 80, 80, 0.5);
+  transition: 0.4s;
+}
+
+.kembali:hover{
+  box-shadow: 0 0 10px rgba(80, 80, 80, 0.5);
+}
+
+.lanjut{
+  margin: 0 10px;
+  box-shadow: 0 0 5px rgba(80, 80, 80, 0.5);
+}
+
+.lanjut:hover{
+  box-shadow: 0 0 10px rgba(80, 80, 80, 0.5);
 }
 
 .sponsorlogo{
@@ -292,45 +301,6 @@ border: none;
 }
 
 @media screen and (max-width: 1360px){
-  .w-30 {
-    width: 33.5%;
-    padding: 30px 30px;
-    display: flex;
-    flex-direction: column; 
-}
-
-.w-70 {
-    width: 66.5%;
-    padding: 30px 30px;
-    display: flex;
-    flex-direction: column;
-}
-
-.gprofil{
-    width: 100%;
-    margin-bottom: 20px;
-}
-
-.kontak {
-    margin-bottom: 20px;
-    margin-top: 20px;
-    float: left;
-    width: 90%;
-    display: flex;
-    flex-direction: column;
-    padding: 20px 20px;
-    border-radius: 20px;
-    box-shadow: 0 0 5px rgba(80, 80, 80, 0.5);
-}
-
-.kontak td{
-    height: 30px;
-}
-
-.gmblaptop1{
-  width: 200px;
-}
-  
   .nav-menu li {
     margin: 0 20px;
     font-size: 14px;
@@ -369,16 +339,104 @@ border: none;
     font-size: 17px;
     border: none;
     }
+  
+  .cardpa {
+    width: calc(100% - 200px);
+    display: flex;
+    padding: 0 100px;
+  }
 
-  .promo{
-    color: white;
-    background: rgb(255, 204, 36);
-    width: 70%;
-    height: 100px;
+  .cardpa1 {
+    float: left;
+    width: 100%;
+    margin-top: 30px;
+    padding: 10px 20px;
+    display: inline-table;
+    border-radius: 10px;
+    box-shadow: 0 0 5px rgba(80, 80, 80, 0.5);
+    transition: 0.4s;
+  }
+
+  .cardpa1:hover{
+    box-shadow: 0 0 10px rgba(59, 59, 59, 0.5);
+  }
+
+  .w-20 {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: left;
+  }
+
+  .w-40 {
+    width: 60%;
+    padding: 20px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    float: left;
+  }
+
+  .w-40 h3 {
+    color: rgb(255, 204, 35);
+  }
+
+  .pilihan {
+    width: calc(100% - 200px);
+    padding: 0 100px;
+    margin-top: 40px;
+    margin-bottom: 20px;
     display: inherit;
     align-items: center;
     justify-content: center;
+    display: flex;
+    flex-direction: column;
+   }
+
+  .box-underline {
+    width: 100px;
+    height: 3px;
+    margin-top: 5px;
+    background-color: rgb(255, 204, 35);
+    display: flex;
   }
+
+  .w-30 {
+    width: 100%;
+    padding: 0 40px 0 10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .kotak {
+    margin-top:30px;
+    margin-bottom: 30px;
+    padding: 10px 15px;
+    width:70%;
+    border-radius: 7px;
+    display: flex;
+    box-shadow: 0 0 5px rgba(80, 80, 80, 0.5);
+    transition:0.4s;
+  }
+
+  .kotak:hover{
+    box-shadow: 0 0 10px rgba(59, 59, 59, 0.5);
+  }
+
+  .kotak p{
+    font-size: 14px;
+    font-weight: 650;
+    font-family: montserrat;
+  }
+
+  .harga{
+    margin: 10px 0;
+    color: rgb(255, 204, 36);
+  }
+
 
   .sponsorpilihan{
     width: calc(100% - 400px);
@@ -394,6 +452,16 @@ border: none;
 }
 
 @media screen and (max-width: 1190px){
+  .w-40 {
+    width: 40%;
+    height: 230px;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    float: left;
+  }
+
   .navbar {
     justify-content: space-between;
     width: 100%;
@@ -459,11 +527,7 @@ border: none;
 }
 
 @media screen and (max-width: 915px){
-  .gmblaptop1{
-    width: 150px;
-  }
-
-  .sponsorpilihan{
+.sponsorpilihan{
   width: calc(100% - 150px);
   padding: 0 75px;
   display: flex;
