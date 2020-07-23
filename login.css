@@ -125,3 +125,35 @@ a{
   list-style: none;
   text-decoration: none;
 }
+
+@media screen and (max-width: 400px){
+  .kotakputih{
+    width: 350px;
+    height: 300px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .isi{
+    margin: 50px 0;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .kotakhitam{
+    width: 350px;
+    height: 80px;
+    color: white;
+    background-color: rgb(37, 45, 57);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 13px;
+  }
+  
+}

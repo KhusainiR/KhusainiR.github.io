@@ -307,7 +307,7 @@ border: none;
 }
 
 .gprofil{
-    width: 100%;
+    width: 80%;
     margin-bottom: 20px;
 }
 
@@ -456,9 +456,68 @@ border: none;
   .search-button{
     float: inherit;
   }
+
+  .prof {
+    margin-top: 20px;
+      width: calc(100% - 500px);
+      padding: 0 25px;
+      display: flex;
+  }
 }
 
 @media screen and (max-width: 915px){
+  .prof {
+    margin-top: 20px;
+      width: calc(100% - 50px);
+      padding: 0 25px;
+      display: inline-block;
+  }
+  
+  .gprofil{
+    width: 25%;
+    margin-bottom: 20px;
+}
+
+  .w-30 {
+    width: 90%;
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column; 
+}
+
+.w-70 {
+    width: 90%;
+    padding: 30px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.gprofil{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.kontak {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    float: left;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgba(80, 80, 80, 0.5);
+}
+
+.kontak td{
+    height: 30px;
+}
+
+.gmblaptop1{
+  width: 200px;
+}
+  
+
   .gmblaptop1{
     width: 150px;
   }
@@ -472,8 +531,8 @@ border: none;
 }
 
 .footer {
-  width: calc(100% - 200px);
-  padding: 10px 100px;
+  width: calc(100% - 70px);
+  padding: 10px 35px;
   display: inline-table;
   background-color:  rgb(15, 149, 216);
 }
@@ -483,4 +542,77 @@ border: none;
   color: white;
   padding: 10px 20px;
 }
+
+.riwayatbeli {
+  margin-top: 20px;
+  width: 100%;
+  display: inline-table;
+}
+
+.r1 {
+  margin: 0 30px 0 0;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 20px 40px 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 5px rgba(80, 80, 80, 0.5);
+}
+
+.r2 {
+  margin: 20px 0 0 0;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  float: left;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  padding: 30px 20px 40px 20px;
+  border-radius: 20px;
+  box-shadow: 0 0 5px rgba(80, 80, 80, 0.5);
+}
+
+}
+
+@media screen and (max-width: 400px){
+  body{
+    width: 100%;
+  }
+
+  .full{
+    width: 100%;
+  }
+
+  .prof {
+    margin-top: 20px;
+      width: calc(100% - 20px);
+      padding: 0 10px;
+      display: inline-block;
+  }
+
+  .navbar {
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    color: white;
+    padding: 10px 0;
+    height: 50px;
+    background-color:  rgb(15, 149, 216);
+    align-items: center;
+    box-shadow: 0 0 10px rgba(117, 117, 117, 0.5);
+  }
+
+    .sponsorpilihan{
+      width: 100%;
+      padding: 0 0;
+      background: rgb(230, 231, 232);
+      margin-top: 30px;
+    }
+
+
 }
