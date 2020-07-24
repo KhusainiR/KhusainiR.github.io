@@ -456,13 +456,6 @@ border: none;
   .search-button{
     float: inherit;
   }
-
-  .prof {
-    margin-top: 20px;
-      width: calc(100% - 500px);
-      padding: 0 25px;
-      display: flex;
-  }
 }
 
 @media screen and (max-width: 915px){
@@ -474,9 +467,9 @@ border: none;
   }
   
   .gprofil{
-    width: 25%;
+    width: 50%;
     margin-bottom: 20px;
-}
+  }
 
   .w-30 {
     width: 90%;
@@ -490,11 +483,6 @@ border: none;
     padding: 30px 30px;
     display: flex;
     flex-direction: column;
-}
-
-.gprofil{
-    width: 100%;
-    margin-bottom: 20px;
 }
 
 .kontak {
@@ -591,9 +579,34 @@ border: none;
   .prof {
     margin-top: 20px;
       width: calc(100% - 20px);
-      padding: 0 10px;
+      padding: 0 5px;
       display: inline-block;
   }
+
+  .w-30 {
+    width: 100%%;
+    padding: 30px 10px;
+    display: flex;
+    flex-direction: column; 
+}
+
+  .w-70 {
+    width: calc(100% - 20px);
+    padding: 30px 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.kontak {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  float: left;
+  width: 100%;
+  display: flex;
+  padding: 20px 10px;
+  border-radius: 20px;
+  box-shadow: 0 0 5px rgba(80, 80, 80, 0.5);
+}
 
   .navbar {
     justify-content: space-between;
@@ -607,12 +620,10 @@ border: none;
     box-shadow: 0 0 10px rgba(117, 117, 117, 0.5);
   }
 
-    .sponsorpilihan{
+  .sponsorpilihan{
       width: 100%;
       padding: 0 0;
       background: rgb(230, 231, 232);
       margin-top: 30px;
     }
-
-
 }

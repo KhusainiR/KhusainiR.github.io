@@ -723,23 +723,17 @@ border: none;
 
 @media screen and (max-width: 800px){
   .gmblaptop2{
-    width: 130px;
-  }
-
-  .cardpa {
-    width: calc(100% - 40px);
-    display: flex;
-    padding: 0 20px;
+    width: 150px;
   }
 }
 
 @media screen and (max-width: 650px){
   .gmblaptop2{
-    width: 90px;
+    width: 110px;
   }
 
   .cardpa {
-    width: calc(100% - 40px);
+    width: calc(100% - 100px);
     display: flex;
     padding: 0 20px;
   }
