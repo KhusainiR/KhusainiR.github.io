@@ -113,6 +113,8 @@ border: none;
   border-radius: 10px;
   box-shadow: 0 0 5px rgba(80, 80, 80, 0.5);
   transition: 0.4s;
+     align-items: center;
+     justify-content: center;
 }
 
 .cardpa1:hover{
@@ -748,22 +750,15 @@ border: none;
     box-shadow: 0 0 10px rgba(117, 117, 117, 0.5);
   }
 
-  .hero{
-    width: 100%;
-    padding: 0 20px;
+  .w-40 {
+    width: 80%;
+    padding: 20px 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    float: left;
   }
-
-  .mb-40{
-    padding: 0 10px;
-    margin-bottom: 30px;
-    font-weight: 1000;
-    font-size: 25px;
-    }
-
-    .gmb-hero{
-      margin-top: 20px;
-      width: 50%;
-    }
 
     .gmblaptop1{
       width: 150px;
@@ -773,18 +768,24 @@ border: none;
       width: 100px;
     }
 
+    .cardpa {
+      width: calc(100% - 40px);
+      display: flex;
+      padding: 0 20px;
+    }
+
     .pilihan {
       width: calc(100% - 100px);
-      padding: 0 50px;
+      padding: 0 60px;
       margin-top: 40px;
       margin-bottom: 20px;
       display: inherit;
-      align-items: center;
-      justify-content: center;
-      display: flex;
-      flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     display: flex;
+     flex-direction: column;
      }
-  
+      
     .box-underline {
       width: 100px;
       height: 3px;
@@ -818,4 +819,5 @@ border: none;
       font-weight: 650;
       font-family: montserrat;
     }
+
 }
